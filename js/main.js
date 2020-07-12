@@ -40,8 +40,8 @@ jQuery(function () {
         showRadioStation: true,
         showTitle: true,
         showHistoryBut: true,
-        translateReadingData: "reading data...",
-        historyTranslate: "HISTORY - latest played songs",
+        translateReadingData: "cargando datos...",
+        historyTranslate: "Historial - canciones reproducidas",
         historyTitleColor: "#008aa4",
         historyBgColor: "#FFFFFF",
         historyBgColorAlpha: 0.9,
@@ -75,10 +75,10 @@ $(document).ready(function () {
                 items: 1
             },
             600: {
-                items: 2 //aqui va 3
+                items: 3 //aqui va 3
             },
             1000: {
-                items: 2 //aqui va 5
+                items: 3 //aqui va 5
             }
         }
     })

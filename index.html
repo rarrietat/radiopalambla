@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="css/styles.min.css">
     <link rel="shortcut icon" type="image/png" href="img/loco_icon.png">
     <title>Radio Palambla</title>
@@ -213,11 +213,8 @@
                 </div>
                 <div class="info-nosotros">
                     <h2>Acerca de Radio Palambla</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi ratione velit commodi.
-                        Facilis.
-                        quam? Maxime illo voluptatibus<br><br>expedita quis ut reiciendis eius voluptates? Doloremque,
-                        animi! Libero
-                        obcaecati nostrum eaque soluta eius.</p>
+                    <p>Radio Palambla nace en 1925, un proyecto que se crea con la finalidad de entretener a los oyentes
+                        y dar a conocer nuestra gran variedad de musica norteña.<br><br></p>
                 </div>
             </section>
         </div>
@@ -257,12 +254,41 @@
                         <img src="img/logo_dachita.svg">
                     </div>
                     <div>
-                        <img src="img/Logo_estadio.svg">
+                        <img src="img/logo_estadio.svg">
+                    </div>
+                    <div>
+                        <img src="img/logo_son_palambla.png">
                     </div>
                 </div>
             </section>
         </div>
 
+    </div>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v7.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="290493100987160" theme_color="#00926A"
+        logged_in_greeting="Bienvenidos estimado oyente, en que podemos ayudarte?"
+        logged_out_greeting="Bienvenidos estimado oyente, en que podemos ayudarte?">
     </div>
 
     <footer>

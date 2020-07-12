@@ -7,8 +7,8 @@ window.addEventListener("scroll", function () {
 /* Reproductor de música */
 jQuery(function () {
     jQuery("#lbg_audio9_html5_radio_zuper_1").audio9_html5({
-        radio_stream: "http://stream.rockradio.si:9034/;",
-        radio_name: "Your Radio Title Here",
+        radio_stream: "http://82.145.41.107/live.mp3?typeportmount=s1_33002_stream_881353461;",
+        radio_name: "RADIO PALAMBLA",
         playerWidth: 355,
         imageHeight: 355,
         skin: "blackControllers",
